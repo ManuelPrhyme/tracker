@@ -1,0 +1,286 @@
+body {
+  /* font-family: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+header {
+  background-color: #cccccc;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+} 
+
+#logo {
+  width: 150px;
+  height: 90px;
+  margin-top: -2px;
+  border: none;
+  border-radius: 80%;
+}
+/* navbar */
+.side-bar {
+  background-color: #641d3b;
+  position: fixed;
+  width: 240px;
+  /* height: 100%; */
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  transition: width 2s ease-in 2s;
+}
+
+.top-nav-bar{
+  margin: 10px auto auto 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.close-btn{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #122b4d;
+  margin-left: 195px;
+  margin-top: 0.2px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.side-bar-btn{
+  width: 30px;
+  height: 30px;
+  font-size: 1.3rem;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  color: #122b4d;
+  margin: 10px;
+}
+
+.nav-bar-container img{
+  width: 250px;
+  height: 60px;
+
+}
+
+.profile {
+  margin-bottom: 25px;
+  text-align: center;
+
+
+}
+
+.profile img {
+  display: block;
+  width: 85px;
+  height: 85px;
+  border-radius:100%;
+  margin: 0 auto;
+}
+
+.profile h3 {
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: aliceblue;
+  margin: 8px 0 8px 0;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.icon {
+  color: #dee4ec;
+  width: 30px;
+  display:inline-block;
+}
+
+.nav-bar a:hover,
+.nav-bar a:active {
+  font-size: 21px;
+  padding-left:20px;
+  transition:0.2s;
+  color: aliceblue;
+  background: #122b4d;
+  border-right: 2px solid rgb(5, 68, 104);
+}
+
+
+.logout {
+  margin: 40vh auto auto 7vh;
+}
+
+.logout a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  border: 1px solid aliceblue;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* width: 150px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.logout a:hover,
+.logout a:active {
+  background-color: #dee4ec;
+  color: #007bff;
+}
+
+.right-side{
+  display: flex;
+  margin:20px auto auto 270px;
+}
+
+/* section container */
+h2{
+  /* border: 2px solid blue; */
+  padding: 20px;
+margin: 10px 0 0 0;
+border-color: #641d3b;
+border-radius: 10px;
+}
+
+#trasactioncount{
+
+display: flex; 
+margin-left: 150px;
+justify-content: space-around;
+
+}
+.container{
+display: flex; 
+margin-left: 240px;
+padding: 20px;
+justify-content: space-around;
+height:80vh;
+}
+
+.formcontent{
+/* border: 2px solid red; */
+padding: 30px;
+width: 20vw;
+background-color:#91cbef;
+border-radius: 20px;
+background-color: #641d3b;}
+.history{
+/* border: 2px solid orange; */
+height: 100%;
+width: 50vw;
+overflow:scroll;
+}
+/* form  */
+     /*form {
+height:500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px; 
+border: 2px solid orange;}   */
+
+#transaction-form input{
+  border: none;
+  border-radius: 18px;
+  color: black;
+}
+
+#transaction-form input:hover,
+#transaction-form input:active{
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: white;
+}
+
+#type{
+  border: 1px solid #007bff;
+  border-radius: 18px;
+  background-color: white;
+  color: #641d3b;
+  margin-left: 20px;
+  width: 150px;
+  padding-right: 60px;
+}
+
+#type:hover,
+#ype:active{
+  color: white;
+  background-color: #007bff;
+}
+
+#transaction-form button{
+  width: 200px;
+  color: #641d3b;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 20px;
+
+}
+
+#transaction-form button:hover,
+#transaction-form button:active{
+  color: white;
+  background-color: #007bff;
+}
+
+form input, form select, form button {
+  margin-bottom: 20px;
+  padding: 12px;
+  width: 90%;
+
+  /* border-radius: 10px; */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+li.income {
+  background-color: #e9f5e9;
+  color: darkgreen;
+}
+
+li.expense {
+  background-color: #f8eaea;
+  color: red;
+}
+
+li button {
+  font-weight: 600;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: rgb(37, 18, 4);
+  cursor: pointer;
+}
